@@ -19,7 +19,7 @@ export function checkerboard(data, x, y, width, height) {
   }
 
   const index = calcIndex(x, y, width);
-  setPixel(isBlack, data, index);
+  setPixel(isBlack, false, data, index);
 }
 
 /**
@@ -40,7 +40,7 @@ export function circle(data, x, y, width, height, radius) {
   const isBlack = distToMid <= radius;
 
   const index = calcIndex(x, y, width);
-  setPixel(isBlack, data, index);
+  setPixel(isBlack, true, data, index);
 }
 
 /**
@@ -56,12 +56,13 @@ function calcIndex(x, y, width) {
 /**
  * Sets a pixel in the given image to black or white.
  * @param {boolean} black if the pixel should be black or white
+ * @param {boolean} transparent if the pixel should be transparent when not black
  * @param {array} data image data
  * @param {number} index first array index
  */
-function setPixel(black, data, index) {
+function setPixel(black, transparent, data, index) {
   data[index++] = black ? 0 : 255;
   data[index++] = black ? 0 : 255;
   data[index++] = black ? 0 : 255;
-  data[index++] = 255;
+  data[index++] = !black && transparent ? 0 : 255;
 }
