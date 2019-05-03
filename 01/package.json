@@ -1,0 +1,24 @@
+{
+  "name": "icg",
+  "version": "1.0.0",
+  "description": "ICG exercise",
+  "scripts": {
+    "start": "live-server src --mount=/bootstrap.css:node_modules/bootstrap/dist/css/bootstrap.css",
+    "test": "jest"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "author": "JP Stauffert",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0"
+  }
+}
