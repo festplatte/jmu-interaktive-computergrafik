@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ICG-02 2D</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="icon" type="image/png" href="hci-logo.png">
+    <script src="02-exercise.js" type="module"></script>
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>ICG Gamma Correction</h1>
+        <hr>
+        <h2>Gamma Correction</h2>
+        <p>Determine the color of each pixel after the gamma correction</p>
+        <canvas id="gamma" width="800" height="400"></canvas><br>
+        <div class="form-group text-left">
+            <label for="gammaslider">Gamma</label>
+            <input class="form-control-range" type="range" id="gammaslider" min="1" max="5" step="0.1">
+        </div>
+        <h2>CMYK</h2>
+        <p>Determine the CMYK representation for each pixel</p>
+        <canvas id="cmyk" width="1024" height="384"></canvas>
+    </div>
+</body>
+
+</html>
