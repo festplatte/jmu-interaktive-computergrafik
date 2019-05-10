@@ -16,8 +16,8 @@ export function gammaAdjust(gamma, source, dest, x, y, width, height) {
   source
     .slice(startIndex, startIndex + 3)
     .forEach(x => manipulatedPixel.push(x / 255));
-  manipulatedPixel = manipulatedPixel.map(intensity =>
-    Math.floor(Math.pow(intensity, 1 / gamma) * 255)
+  manipulatedPixel = manipulatedPixel.map(
+    intensity => Math.pow(intensity, 1 / gamma) * 255
   );
 
   dest[startIndex] = manipulatedPixel[0];
@@ -63,25 +63,25 @@ export function cmyk(data, x, y, width, height, cData, mData, yData, kData) {
   const mValue = 1 - originPixel[1] - kValue;
   const yValue = 1 - originPixel[2] - kValue;
 
-  const kChannel = Math.floor((1 - kValue) * 255);
+  const kChannel = Math.ceil((1 - kValue) * 255);
   kData[startIndex] = kChannel;
   kData[startIndex + 1] = kChannel;
   kData[startIndex + 2] = kChannel;
   kData[startIndex + 3] = 255;
 
-  cData[startIndex] = Math.floor((1 - cValue) * 255);
+  cData[startIndex] = Math.ceil((1 - cValue) * 255);
   cData[startIndex + 1] = 255;
   cData[startIndex + 2] = 255;
   cData[startIndex + 3] = 255;
 
   mData[startIndex] = 255;
-  mData[startIndex + 1] = Math.floor((1 - mValue) * 255);
+  mData[startIndex + 1] = Math.ceil((1 - mValue) * 255);
   mData[startIndex + 2] = 255;
   mData[startIndex + 3] = 255;
 
   yData[startIndex] = 255;
   yData[startIndex + 1] = 255;
-  yData[startIndex + 2] = Math.floor((1 - yValue) * 255);
+  yData[startIndex + 2] = Math.ceil((1 - yValue) * 255);
   yData[startIndex + 3] = 255;
 
   //   if (x === 50 && y === 50) {
