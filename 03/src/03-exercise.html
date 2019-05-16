@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ICG-03 2D Lines</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="icon" type="image/png" href="hci-logo.png">
+  <script src="03-exercise.js" type="module"></script>
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1>ICG 2D Lines</h1>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <h2>DDA</h2>
+        <p>Implement the DDA algorithm to create a rotating line</p>
+        <canvas id="dda" width="300" height="300"></canvas>
+      </div>
+      <div class="col">
+        <h2>Reference</h2>
+        <p>Use the reference to compare with your implementations</p>
+
+        <canvas id="example" width="300" height="300"></canvas>
+      </div>
+      <div class="col">
+        <h2>Bresenham</h2>
+        <p>Implement the Bresenham algorithm to create a rotating line</p>
+        <canvas id="bresenham" width="300" height="300"></canvas>
+      </div>
+    </div>
+    <div>
+      <input type="button" value="Benchmark" id="benchmark" class="btn-dark">
+      <p id="benchmarkResult"></p>
+    </div>
+  </div>
+</body>
+
+</html>
