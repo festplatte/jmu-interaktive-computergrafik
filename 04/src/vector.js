@@ -10,7 +10,7 @@ export default class Vector {
    * @param  {number} w - The w component
    */
   constructor(x, y, z, w) {
-    // TODO [exercise 4]
+    this.values = [x, y, z, w];
   }
 
   /**
@@ -18,7 +18,7 @@ export default class Vector {
    * @return {number} The x component of the vector
    */
   get x() {
-    // TODO [exercise 4]
+    return this.values[0];
   }
 
   /**
@@ -26,7 +26,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set x(val) {
-    // TODO [exercise 4]
+    this.values[0] = val;
   }
 
   /**
@@ -34,7 +34,7 @@ export default class Vector {
    * @return {number} The first component of the vector
    */
   get r() {
-    // TODO [exercise 5]
+    return this.x;
   }
 
   /**
@@ -42,7 +42,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set r(val) {
-    // TODO [exercise 5]
+    this.x = val;
   }
 
   /**
@@ -50,7 +50,7 @@ export default class Vector {
    * @return {number} The y component of the vector
    */
   get y() {
-    // TODO [exercise 4]
+    return this.values[1];
   }
 
   /**
@@ -58,7 +58,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set y(val) {
-    // TODO [exercise 4]
+    this.values[1] = val;
   }
 
   /**
@@ -66,7 +66,7 @@ export default class Vector {
    * @return {number} The second component of the vector
    */
   get g() {
-    // TODO [exercise 5]
+    return this.y;
   }
 
   /**
@@ -74,7 +74,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set g(val) {
-    // TODO [exercise 5]
+    this.y = val;
   }
 
   /**
@@ -82,7 +82,7 @@ export default class Vector {
    * @return {number} The z component of the vector
    */
   get z() {
-    // TODO [exercise 4]
+    return this.values[2];
   }
 
   /**
@@ -90,7 +90,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set z(val) {
-    // TODO [exercise 4]
+    this.values[2] = val;
   }
 
   /**
@@ -98,7 +98,7 @@ export default class Vector {
    * @return {number} The third component of the vector
    */
   get b() {
-    // TODO [exercise 5]
+    return this.z;
   }
 
   /**
@@ -106,7 +106,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set b(val) {
-    // TODO [exercise 5]
+    this.z = val;
   }
 
   /**
@@ -114,7 +114,7 @@ export default class Vector {
    * @return {number} The w component of the vector
    */
   get w() {
-    // TODO [exercise 4]
+    return this.values[3];
   }
 
   /**
@@ -122,7 +122,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set w(val) {
-    // TODO [exercise 4]
+    this.values[3] = val;
   }
 
   /**
@@ -130,7 +130,7 @@ export default class Vector {
    * @return {number} The fourth component of the vector
    */
   get a() {
-    // TODO [exercise 5]
+    return this.w;
   }
 
   /**
@@ -138,7 +138,7 @@ export default class Vector {
    * @param  {number} val - The new value
    */
   set a(val) {
-    // TODO [exercise 5]
+    this.w = val;
   }
 
   /**
@@ -147,7 +147,12 @@ export default class Vector {
    * @return {Vector}        The new vector;
    */
   add(other) {
-    // TODO [exercise 4]
+    return new Vector(
+      this.x + other.x,
+      this.y + other.y,
+      this.z + other.z,
+      this.w + other.w
+    );
   }
 
   /**
@@ -156,7 +161,12 @@ export default class Vector {
    * @return {Vector}        The new vector
    */
   sub(other) {
-    // TODO [exercise 4]
+    return new Vector(
+      this.x - other.x,
+      this.y - other.y,
+      this.z - other.z,
+      this.w - other.w
+    );
   }
 
   /**
@@ -165,7 +175,12 @@ export default class Vector {
    * @return {Vector}        The new vector
    */
   mul(other) {
-    // TODO [exercise 4]
+    return new Vector(
+      this.x * other,
+      this.y * other,
+      this.z * other,
+      this.w * other
+    );
   }
 
   /**
@@ -174,7 +189,12 @@ export default class Vector {
    * @return {Vector}        The new vector
    */
   div(other) {
-    // TODO [exercise 4]
+    return new Vector(
+      this.x / other,
+      this.y / other,
+      this.z / other,
+      this.w / other
+    );
   }
 
   /**
@@ -183,7 +203,9 @@ export default class Vector {
    * @return {number}        The result of the dot product
    */
   dot(other) {
-    // TODO [exercise 4]
+    return (
+      this.x * other.x + this.y * other.y + this.z * other.z + this.w * other.w
+    );
   }
 
   /**
@@ -192,7 +214,12 @@ export default class Vector {
    * @return {Vector}        The result of the cross product as new Vector
    */
   cross(other) {
-    // TODO [exercise 4]
+    return new Vector(
+      this.y * other.z - this.z * other.y,
+      this.z * other.x - this.x * other.z,
+      this.x * other.y - this.y * other.x,
+      0
+    );
   }
 
   /**
@@ -200,7 +227,7 @@ export default class Vector {
    * @return {Array.<number>} An array representation.
    */
   valueOf() {
-    // TODO [exercise 4]
+    return this.values;
   }
 
   /**
@@ -208,7 +235,9 @@ export default class Vector {
    * @return {Vector} A vector with length 1
    */
   normalised() {
-    // TODO [exercise 4]
+    const result = this.div(this.length);
+    result.w = this.w;
+    return result;
   }
 
   /**
@@ -217,7 +246,13 @@ export default class Vector {
    * @return {Boolean}        True if the vectors carry equal numbers. The fourth element may be both equivalent to undefined to still return true.
    */
   equals(other) {
-    // TODO [exercise 4]
+    // weak comparison for w component
+    return (
+      Math.abs(this.x - other.x) < Number.EPSILON &&
+      Math.abs(this.y - other.y) < Number.EPSILON &&
+      Math.abs(this.z - other.z) < Number.EPSILON &&
+      (!this.w || !other.w ? true : Math.abs(this.w - other.w) < Number.EPSILON)
+    );
   }
 
   /**
@@ -225,6 +260,6 @@ export default class Vector {
    * @return {number} The length of the vector
    */
   get length() {
-    // TODO [exercise 4]
+    return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
   }
 }
