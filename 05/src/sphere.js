@@ -23,11 +23,18 @@ export default class Sphere {
    */
   intersect(ray) {
     const t = this.center.sub(ray.origin).dot(ray.direction);
-    const vecT = ray.origin.add(ray.direction.mul(t));
-    const y = this.center.sub(vecT).length;
+    const pT = ray.origin.add(ray.direction.mul(t));
+    const y = this.center.sub(pT).length;
     if (y > this.radius) {
-      return false;
+      return null;
     }
-    return true;
+    const x = Math.sqrt(Math.pow(this.radius, 2) - Math.pow(y, 2));
+    const tIntersect = t - x;
+    const pIntersect = ray.origin.add(ray.direction.mul(tIntersect));
+    return new Intersection(
+      tIntersect,
+      pIntersect,
+      pIntersect.sub(this.center).normalised()
+    );
   }
 }
