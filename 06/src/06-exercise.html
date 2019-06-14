@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ICG-06 Math</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="icon" type="image/png" href="hci-logo.png">
+  <script src="06-exercise.js" type="module"> </script>
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1>ICG Math</h1>
+    <hr>
+    <p>Implement the Matrix class. You may use the sliders to transform the sphere's midpoints</p>
+    <div class="row">
+      <div class="col-md-8">
+        <canvas id="raytracer" width="500" height="500"></canvas>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group text-left">
+          <input class="form-check-input" type="checkbox" id="userotation"></input>
+          <label clsss="form-check-label" for="rotation">Rotation</label>
+          <input class="form-control-range" type="range" min="0" max="6.28318" step="0.01" id="rotation"
+            disabled></input>
+        </div>
+        <div class="form-group text-left">
+          <input class="form-check-input" type="checkbox" id="usetranslation"></input>
+          <label clsss="form-check-label" for="translation">Translation X</label>
+          <input class="form-control-range" type="range" min="-1" max="1" step="0.02" id="translation" disabled></input>
+          <p>Translation is done before rotation. Therefore the translate direction might be different from what you
+            expect.</p>
+        </div>
+        <div class="form-group text-left">
+          <input class="form-check-input" type="checkbox" id="usescale"></input>
+          <label clsss="form-check-label" for="scale">Scale</label>
+          <input class="form-control-range" type="range" min="1" max="2" step="0.01" id="scale" disabled></input>
+          <p>We only scale the sphere midpoint positions. The slider is from 1 to 2. The camera is in the origin.
+            Scaling to 2 will move the spheres further away from the camera.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
