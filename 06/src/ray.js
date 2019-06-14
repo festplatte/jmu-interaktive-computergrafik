@@ -1,4 +1,4 @@
-import Vector from './vector.js';
+import Vector from "./vector.js";
 
 /**
  * Class representing a ray
@@ -10,7 +10,8 @@ export default class Ray {
    * @param  {Vector} direction - The direction of the Ray
    */
   constructor(origin, direction) {
-    // TODO [exercise 4]
+    this.origin = origin;
+    this.direction = direction;
   }
 
   /**
@@ -21,6 +22,14 @@ export default class Ray {
    * @return {Ray}             The resulting Ray
    */
   static makeRay(xpos, ypos, camera) {
-    // TODO [exercise 4]
+    return new Ray(
+      camera.origin,
+      new Vector(
+        xpos - (camera.width - 1) / 2,
+        (camera.height - 1) / 2 - ypos,
+        -(camera.width / 2 / Math.tan(camera.alpha / 2)),
+        0
+      ).normalised()
+    );
   }
 }

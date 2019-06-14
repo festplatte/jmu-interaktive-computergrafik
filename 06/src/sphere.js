@@ -1,4 +1,4 @@
-import Intersection from './intersection.js';
+import Intersection from "./intersection.js";
 
 /**
  * A class representing a sphere
@@ -11,7 +11,9 @@ export default class Sphere {
    * @param  {Vector} color  - The colour of the Sphere
    */
   constructor(center, radius, color) {
-    // TODO [exercise 4]
+    this.center = center;
+    this.radius = radius;
+    this.color = color;
   }
 
   /**
@@ -20,6 +22,19 @@ export default class Sphere {
    * @return {Intersection}   The intersection if there is one, null if there is none
    */
   intersect(ray) {
-    // TODO [exercise 4/5]
+    const t = this.center.sub(ray.origin).dot(ray.direction);
+    const pT = ray.origin.add(ray.direction.mul(t));
+    const y = this.center.sub(pT).length;
+    if (y > this.radius) {
+      return null;
+    }
+    const x = Math.sqrt(Math.pow(this.radius, 2) - Math.pow(y, 2));
+    const tIntersect = t - x;
+    const pIntersect = ray.origin.add(ray.direction.mul(tIntersect));
+    return new Intersection(
+      tIntersect,
+      pIntersect,
+      pIntersect.sub(this.center).normalised()
+    );
   }
 }
