@@ -41,7 +41,7 @@ export default function phong(
   // result = result.mul(Math.cos(s.dot(intersection.normal) / s.length));
 
   // specular reflection
-  const v = cameraPosition.sub(intersection.point);
+  const v = cameraPosition.sub(intersection.point).normalised();
   const specularReflections = lightPositions.map(light => {
     const l = light.sub(intersection.point).normalised();
     // const t = light.sub(intersection.point).dot(intersection.normal);
@@ -50,7 +50,8 @@ export default function phong(
     const r = intersection.normal
       .mul(intersection.normal.dot(l))
       .mul(2)
-      .sub(l);
+      .sub(l)
+      .normalised();
     return lightColor.mul(Math.pow(Math.max(0, r.dot(v)), shininess));
   });
   result = result.add(
