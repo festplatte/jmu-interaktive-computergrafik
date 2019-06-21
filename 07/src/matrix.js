@@ -1,4 +1,4 @@
-import Vector from './vector.js';
+import Vector from "./vector.js";
 
 /**
  * Class representing a 4x4 Matrix
@@ -43,7 +43,11 @@ export default class Matrix {
    * @return {Matrix}               The resulting translation matrix
    */
   static translation(translation) {
-    // TODO [exercise 6]
+    const result = Matrix.identity();
+    for (let i = 0; i < 4; i++) {
+      result.setVal(i, 3, translation.valueOf()[i]);
+    }
+    return result;
   }
 
   /**
@@ -53,7 +57,69 @@ export default class Matrix {
    * @return {Matrix}         The resulting rotation matrix
    */
   static rotation(axis, angle) {
-    // TODO [exercise 6]
+    const cos = Math.cos(angle);
+    const sin = Math.sin(angle);
+    if (axis.x) {
+      return new Matrix([
+        1,
+        0,
+        0,
+        0,
+        0,
+        cos,
+        -sin,
+        0,
+        0,
+        sin,
+        cos,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]);
+    }
+    if (axis.y) {
+      return new Matrix([
+        cos,
+        0,
+        sin,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -sin,
+        0,
+        cos,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]);
+    }
+    if (axis.z) {
+      return new Matrix([
+        cos,
+        -sin,
+        0,
+        0,
+        sin,
+        cos,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]);
+    }
+    return null;
   }
 
   /**
@@ -62,7 +128,24 @@ export default class Matrix {
    * @return {Matrix}         The resulting scaling matrix
    */
   static scaling(scale) {
-    // TODO [exercise 6]
+    return new Matrix([
+      scale.x,
+      0,
+      0,
+      0,
+      0,
+      scale.y,
+      0,
+      0,
+      0,
+      0,
+      scale.z,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]);
   }
 
   /**
@@ -107,12 +190,7 @@ export default class Matrix {
    * @return {Matrix} A new identity matrix
    */
   static identity() {
-    return new Matrix([
-      1, 0, 0, 0,
-      0, 1, 0, 0,
-      0, 0, 1, 0,
-      0, 0, 0, 1
-    ]);
+    return new Matrix([1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]);
   }
 
   /**
@@ -122,9 +200,28 @@ export default class Matrix {
    */
   mul(other) {
     if (other instanceof Matrix) {
-      // TODO [exercise 6]
-    } else { // other is vector
-      // TODO [exercise 6]
+      const outMatrix = Matrix.identity();
+      for (let row = 0; row < 4; row++) {
+        for (let col = 0; col < 4; col++) {
+          let cell = 0;
+          for (let i = 0; i < 4; i++) {
+            cell += this.getVal(row, i) * other.getVal(i, col);
+          }
+          outMatrix.setVal(row, col, cell);
+        }
+      }
+      return outMatrix;
+    } else {
+      // other is vector
+      const values = [];
+      for (let row = 0; row < 4; row++) {
+        let cell = 0;
+        for (let i = 0; i < 4; i++) {
+          cell += this.getVal(row, i) * other.valueOf()[i];
+        }
+        values.push(cell);
+      }
+      return new Vector(values[0], values[1], values[2], values[3]);
     }
   }
 
@@ -133,7 +230,13 @@ export default class Matrix {
    * @return {Matrix} A new matrix that is the transposed of this
    */
   transpose() {
-    // TODO [exercise 6]
+    const result = Matrix.identity();
+    for (let row = 0; row < 4; row++) {
+      for (let col = 0; col < 4; col++) {
+        result.setVal(row, col, this.getVal(col, row));
+      }
+    }
+    return result;
   }
 
   /**
@@ -141,10 +244,15 @@ export default class Matrix {
    */
   print() {
     for (let row = 0; row < 4; row++) {
-      console.log("> " + this.getVal(row, 0) +
-        "\t" + this.getVal(row, 1) +
-        "\t" + this.getVal(row, 2) +
-        "\t" + this.getVal(row, 3)
+      console.log(
+        "> " +
+          this.getVal(row, 0) +
+          "\t" +
+          this.getVal(row, 1) +
+          "\t" +
+          this.getVal(row, 2) +
+          "\t" +
+          this.getVal(row, 3)
       );
     }
   }
