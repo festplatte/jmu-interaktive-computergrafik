@@ -23,7 +23,7 @@ export class GroupNode extends Node {
   constructor(mat) {
     super();
     this.matrix = mat;
-    // TODO [exercise 7]
+    this.children = [];
   }
 
   /**
@@ -31,7 +31,7 @@ export class GroupNode extends Node {
    * @param  {Visitor} visitor - The visitor
    */
   accept(visitor) {
-    // TODO [exercise 7]
+    visitor.visitGroupNode(this);
   }
 
   /**
@@ -39,7 +39,7 @@ export class GroupNode extends Node {
    * @param {Node} childNode - The child node to add
    */
   add(childNode) {
-    // TODO [exercise 7]
+    this.children.push(childNode);
   }
 }
 
@@ -66,7 +66,7 @@ export class SphereNode extends Node {
    * @param  {Visitor} visitor - The visitor
    */
   accept(visitor) {
-    // TODO [exercise 7]
+    visitor.visitSphereNode(this);
   }
 }
 
@@ -93,7 +93,7 @@ export class AABoxNode extends Node {
    * @param  {Visitor} visitor - The visitor
    */
   accept(visitor) {
-    // TODO [exercise 7]
+    visitor.visitAABoxNode(this);
   }
 }
 
@@ -120,6 +120,6 @@ export class TextureBoxNode extends Node {
    * @param  {Visitor} visitor - The visitor
    */
   accept(visitor) {
-    // TODO [exercise 7]
+    visitor.visitTextureBoxNode(this);
   }
 }
