@@ -1,8 +1,8 @@
-import RasterSphere from './raster-sphere.js';
-import RasterBox from './raster-box.js';
-import RasterTextureBox from './raster-texture-box.js';
-import Vector from './vector.js';
-import Matrix from './matrix.js';
+import RasterSphere from "./raster-sphere.js";
+import RasterBox from "./raster-box.js";
+import RasterTextureBox from "./raster-texture-box.js";
+import Vector from "./vector.js";
+import Matrix from "./matrix.js";
 
 /**
  * Class representing a Visitor that uses Rasterisation to render a Scenegraph
@@ -14,7 +14,7 @@ export class RasterVisitor {
    */
   constructor(context) {
     this.gl = context;
-    // TODO  [exercise 8] setup
+    this.matrixStack = [];
   }
 
   /**
@@ -39,10 +39,7 @@ export class RasterVisitor {
    */
   setupCamera(camera) {
     if (camera) {
-      this.lookat = Matrix.lookat(
-        camera.eye,
-        camera.center,
-        camera.up);
+      this.lookat = Matrix.lookat(camera.eye, camera.center, camera.up);
 
       this.perspective = Matrix.perspective(
         camera.fovy,
@@ -50,7 +47,6 @@ export class RasterVisitor {
         camera.near,
         camera.far
       );
-
     }
   }
 
@@ -59,7 +55,9 @@ export class RasterVisitor {
    * @param  {GroupNode} node - The node to visit
    */
   visitGroupNode(node) {
-    // TODO [exercise 8]
+    this.matrixStack.push(node.matrix);
+    node.children.forEach(child => child.accept(this));
+    this.matrixStack.pop();
   }
 
   /**
@@ -70,7 +68,9 @@ export class RasterVisitor {
     let shader = this.shader;
     shader.use();
     let mat = Matrix.identity();
-    // TODO [exercise 8] Calculate the model matrix for the sphere
+    this.matrixStack.forEach(m => {
+      mat = mat.mul(m);
+    });
     shader.getUniformMatrix("M").set(mat);
 
     let V = shader.getUniformMatrix("V");
@@ -94,7 +94,9 @@ export class RasterVisitor {
     this.shader.use();
     let shader = this.shader;
     let mat = Matrix.identity();
-    // TODO  [exercise 8] Calculate the model matrix for the sphere
+    this.matrixStack.forEach(m => {
+      mat = mat.mul(m);
+    });
     shader.getUniformMatrix("M").set(mat);
     let V = shader.getUniformMatrix("V");
     if (V && this.lookat) {
@@ -117,7 +119,9 @@ export class RasterVisitor {
     let shader = this.textureshader;
 
     let mat = Matrix.identity();
-    // TODO [exercise 8] calculate the model matrix for the box
+    this.matrixStack.forEach(m => {
+      mat = mat.mul(m);
+    });
     shader.getUniformMatrix("M").set(mat);
     let P = shader.getUniformMatrix("P");
     if (P && this.perspective) {
@@ -129,9 +133,9 @@ export class RasterVisitor {
   }
 }
 
-/** 
- * Class representing a Visitor that sets up buffers 
- * for use by the RasterVisitor 
+/**
+ * Class representing a Visitor that sets up buffers
+ * for use by the RasterVisitor
  * */
 export class RasterSetupVisitor {
   /**
@@ -173,7 +177,12 @@ export class RasterSetupVisitor {
    * @param  {SphereNode} node - The node to visit
    */
   visitSphereNode(node) {
-    node.rastersphere = new RasterSphere(this.gl, node.center, node.radius, node.color);
+    node.rastersphere = new RasterSphere(
+      this.gl,
+      node.center,
+      node.radius,
+      node.color
+    );
   }
 
   /**
@@ -190,6 +199,11 @@ export class RasterSetupVisitor {
    * @param  {TextureBoxNode} node - The node to visit
    */
   visitTextureBoxNode(node) {
-    node.rastertexturebox = new RasterTextureBox(this.gl, node.minPoint, node.maxPoint, node.texture);
+    node.rastertexturebox = new RasterTextureBox(
+      this.gl,
+      node.minPoint,
+      node.maxPoint,
+      node.texture
+    );
   }
 }
