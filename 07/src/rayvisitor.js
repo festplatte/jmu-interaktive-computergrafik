@@ -1,8 +1,8 @@
-import Matrix from './matrix.js';
-import Sphere from './sphere.js';
-import Intersection from './intersection.js';
-import Ray from './ray.js';
-import phong from './phong.js';
+import Matrix from "./matrix.js";
+import Sphere from "./sphere.js";
+import Intersection from "./intersection.js";
+import Ray from "./ray.js";
+import phong from "./phong.js";
 
 /**
  * Class representing a Visitor that uses
@@ -18,7 +18,7 @@ export default class RayVisitor {
   constructor(context, width, height) {
     this.context = context;
     this.imageData = context.getImageData(0, 0, width, height);
-    // TODO  [exercise 7] setup
+    this.matrixStack = [];
   }
 
   /**
@@ -56,7 +56,13 @@ export default class RayVisitor {
           if (!minObj.color) {
             setPixel(x, y, new Vector(0, 0, 0, 1));
           } else {
-            let color = phong(minObj.color, minIntersection, lightPositions, 10, camera.origin);
+            let color = phong(
+              minObj.color,
+              minIntersection,
+              lightPositions,
+              10,
+              camera.origin
+            );
             data[4 * (width * y + x) + 0] = color.r * 255;
             data[4 * (width * y + x) + 1] = color.g * 255;
             data[4 * (width * y + x) + 2] = color.b * 255;
@@ -73,7 +79,9 @@ export default class RayVisitor {
    * @param  {Node} node - The node to visit
    */
   visitGroupNode(node) {
-    // TODO  [exercise 7] traverse the graph and build the model matrix
+    this.matrixStack.push(node.matrix);
+    node.children.forEach(child => child.accept(this));
+    this.matrixStack.pop();
   }
 
   /**
@@ -82,8 +90,12 @@ export default class RayVisitor {
    */
   visitSphereNode(node) {
     let mat = Matrix.identity();
-    // TODO  [exercise 7] use the model matrix
-    this.objects.push(new Sphere(mat.mul(node.center), node.radius, node.color));
+    this.matrixStack.forEach(m => {
+      mat = mat.mul(m);
+    });
+    this.objects.push(
+      new Sphere(mat.mul(node.center), node.radius, node.color)
+    );
   }
 
   /**
@@ -92,8 +104,12 @@ export default class RayVisitor {
    */
   visitAABoxNode(node) {
     let mat = Matrix.identity();
-    // TODO  [exercise 7] use the model matrix
-    this.objects.push(new AABox(mat.mul(node.minPoint), mat.mul(node.maxPoint), node.color));
+    this.matrixStack.forEach(m => {
+      mat = mat.mul(m);
+    });
+    this.objects.push(
+      new AABox(mat.mul(node.minPoint), mat.mul(node.maxPoint), node.color)
+    );
   }
 
   /**

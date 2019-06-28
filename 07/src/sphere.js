@@ -29,7 +29,7 @@ export default class Sphere {
       return null;
     }
     const x = Math.sqrt(Math.pow(this.radius, 2) - Math.pow(y, 2));
-    const tIntersect = t - x;
+    const tIntersect = Math.min(t - x, t + x);
     const pIntersect = ray.origin.add(ray.direction.mul(tIntersect));
     return new Intersection(
       tIntersect,
