@@ -65,8 +65,8 @@
 	\textbf{Präsenz/Presence} In wie weit fühlt sich ein Subjekt in einer Umgebung angekommen/eingebungen auch wenn es sich in einer anderen befindet.\\
 	\textbf{Digitalisierung analoger Signale}\\
 	\includegraphics[width=\linewidth]{figures/digitalisierung.png}\\
-	\textbf{Rastergrafik} Grafik wird als Pixel beschrieben, die jeweils eine Farbe haben $\rightarrow$ Skalierung schwierig. Beispiel: JPG, PNG\\
-	\textbf{Vektorgrafik} Inhalt der Grafik wird durch geometrische Formen beschrieben. Kann gerastert und beliebig skaliert werden. Beispiel: SVG, PS (Postscript)\\
+	\textbf{Rastergrafik} Grafik wird als Pixel beschrieben, die jeweils eine Farbe haben $\rightarrow$ Skalierung schwierig. Beispiel: JPG, PNG, GIF, TIFF, PBM\\
+	\textbf{Vektorgrafik} Inhalt der Grafik wird durch geometrische Formen beschrieben. Kann gerastert und beliebig skaliert werden. Beispiel: SVG, PS (Postscript), CGM, IGES, DWF/DXF\\
 
 
 	\subsection{Menschliche Wahrnehmung von Licht}
@@ -86,8 +86,70 @@
 	$$n = \lfloor I^{\frac{1}{\gamma}} 2^N \rfloor$$
 	mit $I \in [0,1]$, $n \in [0,2^N]$: Abbildung der physikalischen Intensität auf wahrnehmungskorrigierte mit $N$ Bit Genauigkeit.
 
-	% TODO weiter mit images-und-rasterization, folie 18
+	\subsection{Rasterisierung von Vektorgrafiken}
+	\textbf{Digital Differential Analyzer (DDA)} Rastern von Linien zwischen zwei beliebigen Punkten $p_1$ und $p_2$. Linie kann als Funktion $y = mx + b$ repräsentiert werden.\\
+	\includegraphics[width=\linewidth]{figures/dda.png}\\
+	\textbf{Bresenham's Algorithmus} Verfeinerung von DDA\\
+	\includegraphics[width=\linewidth]{figures/bresenham.png}\\
+	\textbf{Aliasing} Da Pixel entweder an oder aus sind (haben Farbe oder nicht), bildet sich eine Treppe beim Rastern von Linien. Kann beim Samplen auftreten\\
+	$\rightarrow$ \textbf{Nyquist-Shannon Sampling Theorem} Sample Frequenz $>=$ Doppelte Signal Frequenz\\
+	$\Rightarrow$ \textbf{Antialiasing} hat keine harten Übergänge sondern bildet "Farbverlauf" am Kantenrand (Pixel sind an, aus oder abgeschwächt farbig) durch Supersampling (mehr Punkte als Raster berechnen) und Durchschnittsbildung\\
+	\textbf{Supersampling} feinere Auflösung als Zielbild wählen und regelmäßig samplen (beste Ergebnisse), zufällige Punkte wählen im gesamten Bild, zufällige Punkte in definierten Räumen
 
+	\subsection{Vektoren}
+	\textbf{Skalarprodukt/Dot-Produkt} $u \cdot v = (u_0, u_1, u_2)^T \cdot (v_0, v_1, v_2)^T = u_0 v_0 + u_1 v_1 + u_2 v_2$\\
+	\textbf{Vektorlänge} $||v|| = \sqrt{v \cdot v}$\\
+	\textbf{Kreuxprodukt} $w = u \times v = 
+		\begin{bmatrix}
+			u_1 v_2 - u_2 v_1\\
+			u_2 v_0 - u_0 v_2\\
+			u_0 v_1 - u_1 v_0
+		\end{bmatrix}$\\
+	$w$ ist orthogonal zu $u$ und $v$. Sie bilden ein rechthand-(Koordinaten)-System
+
+	\section{Raytracing}
+	Rendern von 3D-Objekten als 2D-Repräsentation. Orientiert an Physik, dadurch sehr realistische Darstellungen möglich. Strahlen werden von Kamera in die Szene gesendet. Schneiden diese ein 3D-Objekt, wird der Strahl von dort zu einer Lichtquelle verfolgt und der aussendende Pixel entsprechend gefärbt.\\
+	\begin{verbatim}
+		raytrace(scene, camera, image):
+		   # For all pixels in image
+		   for (x, y) in image:
+		      # 1. Generate ray through pixel
+		      ray = camera.generateRay(x, y)
+		      # 2. Find closest intersection with scene
+		      hit = scene.intersect(ray)
+		      # 3. Calculate light intensity
+		      color = shade(hit, scene)
+		      # 4. Set pixel color
+		      image.set(x, y, color)		
+	\end{verbatim}
+	\includegraphics[width=\linewidth]{figures/raytracing.png}\\
+	\textbf{Photon} Lichtstrahl mit bestimmter Energie bzw. Farbe
+	$$E = h \cdot f$$
+	mit $E$: Energie, $h$: Planksche Konstante, $f$: Frequenz
+	$$1 Lumen = 4 \cdot 10^{15} Photonen/sec$$
+	\textbf{Absorption} Photon verschwindet, wird von Gegenstand geschluckt\\
+	\textbf{Reflektion} Photon prallt an Oberfläche ab\\
+	\textbf{Refraktion} Photon geht durch eine Oberfläche hindurch (z.B. Glas)\\
+	\textbf{Ray/Strahl} Dargestellt als Startpunkt mit Richtungsvektor: $x(t) = x_0 + t \vec{d}$
+	\textbf{Licht-Material Interaktion} Mögliche Modelle zur realistischen Farbermittlung:
+	\begin{itemize}
+		\item Quantum Theorie (Emission, Absorption)
+		\item Spezielle Relativität (aberration, blueshift, redshift, time dilatation)
+		\item Wellenoptik (diffraction, dispersion, Interferenz)
+		\item Geometische Optik (Reflektion, Refraktion)
+	\end{itemize}
+
+	\subsection{Shading}
+	Verwende Objektfarbe bei Rayintersection. Naiver Ansatz, da physikalische Gesetze wie Reflektion oder Schatten und Objektstruktur ignoriert werden. Gleichmäßig gefärbte Objekte.
+
+	\subsection{Phong Relektionsmodell}
+	Modell zur realistischen Farbberechnung. Basiert auf geometischer Optik. Setzt sich zusammen aus der Farbe (Ambient) + Oberflächenbeschaffenheit und Schatten (Diffuse) + Reflektion (Specular).\\
+	\textbf{Ambient}\\
+	\includegraphics[width=\linewidth]{figures/phong-ambient.png}\\
+	\textbf{Diffuse}\\
+	\textbf{Specular}\\
+
+	% TODO weiter mit 05-lightning, Folie 19
 
 	% \section{Grundlagen}
 	% Neuronales Netzwerk ist Funktion, die auf Eingabedaten angewendet wird.\\
