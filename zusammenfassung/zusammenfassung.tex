@@ -107,6 +107,80 @@
 		\end{bmatrix}$\\
 	$w$ ist orthogonal zu $u$ und $v$. Sie bilden ein rechthand-(Koordinaten)-System
 
+	\subsection{Homogene Koordinaten}
+	Repräsentieren von Vektoren als homogen, um Transformationen durchführen zu können. (wie in Robotik 1). Vierte Komponente ist 0 für Vektoren, 1 für Punkte.\\
+	\includegraphics[width=\linewidth]{figures/homogene-koordinaten.png}
+	\paragraph{Fundamental rotation matrices} $R_{n}(\phi)$ describes the rotation around the n axes with the angle $\phi$.\\
+	\begin{equation}
+	R_{1}(\phi) = 
+	\begin{bmatrix}
+	1 & 0 & 0\\
+	0 & \cos \phi & -\sin \phi\\
+	0 & \sin \phi & \cos \phi
+	\end{bmatrix}
+	\end{equation}
+	\begin{equation}
+	R_{2}(\phi) = 
+	\begin{bmatrix}
+	\cos \phi & 0 & \sin \phi\\
+	0 & 1 & 0\\
+	-\sin \phi & 0 & \cos \phi
+	\end{bmatrix}
+	\end{equation}
+	\begin{equation}
+	R_{3}(\phi) = 
+	\begin{bmatrix}
+	\cos \phi & -\sin \phi & 0\\
+	\sin \phi & \cos \phi & 0\\
+	0 & 0 & 1
+	\end{bmatrix}
+	\end{equation}
+	
+	\paragraph{Homogenous transformation} Describe coordinates as homogenous coordinates to describe rotations and translations\\
+	vector $q$ as homogenous coordinates is $[q_{1} q_{2} q_{3} 1]^T$\\
+	Homogenous transformation matrix
+	\begin{equation}
+	T = 
+	\begin{bmatrix}
+	R & p\\
+	\eta^T & \sigma
+	\end{bmatrix}
+	\end{equation}
+	with\\
+	$R \in \R^{3 \times 3}$ is a rotation matrix\\
+	$p \in \R^{3 \times 1}$ is a translation vector\\
+	$\sigma \in \R$ is a scaling factor (usually 1)\\
+	$\eta^T \in \R^{1 \times 3}$ is a perspective vector, here zero vector	\begin{equation}
+	Rot(\phi, k) = 
+	\begin{bmatrix}
+	& & & 0\\
+	& R_{k}(\phi) & & 0\\
+	& & & 0\\
+	0 & 0 & 0 & 1
+	\end{bmatrix}, 
+	Tran(p) = 
+	\begin{bmatrix}
+	1 & 0 & 0 & p_{1}\\
+	0 & 1 & 0 & p_{2}\\
+	0 & 0 & 1 & p_{3}\\
+	0 & 0 & 0 & 1
+	\end{bmatrix}
+	\end{equation}
+
+	\paragraph{Reflection} Use identity matrix with $-1$ for the reflection axis. Reflection at a point is reflection at the intersection of three orthogonal planes ($-1$ for every axis).
+
+	\paragraph{Transformation for abitraty points} Translate everything so that the transformation point is located at the origin. Do the Transformation. Translate everything back.
+	
+	\paragraph{Inverse homogenous transformation} If the transformation matrix $T$ maps coordinates from coordinate frame $A$ to $B$, the inverse $T^{-1}$ maps coodinates from $B$ to $A$.
+	\begin{equation}
+	T^{-1} = 
+	\begin{bmatrix}
+	& R^T & & -R^T p\\
+	0 & 0 & 0 & 1
+	\end{bmatrix}
+	\end{equation}
+	with $\eta = 0$ and $\sigma = 1$
+	
 	\section{Raytracing}
 	Rendern von 3D-Objekten als 2D-Repräsentation. Orientiert an Physik, dadurch sehr realistische Darstellungen möglich. Strahlen werden von Kamera in die Szene gesendet. Schneiden diese ein 3D-Objekt, wird der Strahl von dort zu einer Lichtquelle verfolgt und der aussendende Pixel entsprechend gefärbt.\\
 	\begin{verbatim}
@@ -143,13 +217,44 @@
 	Verwende Objektfarbe bei Rayintersection. Naiver Ansatz, da physikalische Gesetze wie Reflektion oder Schatten und Objektstruktur ignoriert werden. Gleichmäßig gefärbte Objekte.
 
 	\subsection{Phong Relektionsmodell}
-	Modell zur realistischen Farbberechnung. Basiert auf geometischer Optik. Setzt sich zusammen aus der Farbe (Ambient) + Oberflächenbeschaffenheit und Schatten (Diffuse) + Reflektion (Specular).\\
+	Modell zur Farbberechnung. Basiert auf geometischer Optik. Setzt sich zusammen aus der Farbe (Ambient) + Oberflächenbeschaffenheit und Schatten (Diffuse) + Reflektion (Specular). Verwendet folgende Vereinfachungen:
+	\begin{itemize}
+		\item Oberfläche: Isotropic, betrachtet nicht die Wellenlänge und Polarisierung
+		\item Raum: nimmt Vacuum an, keine atmospherischen Effekte
+		\item Licht: Lichtquellen als einzelne Punkte
+	\end{itemize}
 	\textbf{Ambient}\\
 	\includegraphics[width=\linewidth]{figures/phong-ambient.png}\\
-	\textbf{Diffuse}\\
-	\textbf{Specular}\\
+	\textbf{Diffuse} Betrachtet reflektiertes Licht von Oberflächen (unterschiedlich je nach Oberfläche matt/glänzend)\\
+	\includegraphics[width=\linewidth]{figures/phong-diffuse.png}
+	$$L_d(p) = k_d \sum_j L_j \max(0, n \cdot s_j)$$
+	mit $L_d$: Reflektiertes Licht (Diffuse-Anteil)\\
+	$k_d$: Material-Koeffizient für Diffuse Reflektion\\
+	$L_j$: Licht (Farbe) der Lichtquelle $j$\\
+	$n$: Normale vom Punkt $p$ zur Oberfläche\\
+	$s_j$: Vektor von $p$ zur Lichtquelle $j$\\
+	\textbf{Specular} Betrachtet starke Reflektionen für glänzende Oberflächen (weiße/helle Punkte)\\
+	\includegraphics[width=\linewidth]{figures/phong-specular.png}\\
+	\textbf{Reflektionsberechnung} Berechnung des Reflektionsvektors\\
+	\includegraphics[width=\linewidth]{figures/reflektionsvektor.png}
 
-	% TODO weiter mit 05-lightning, Folie 19
+	\section{Scene Graph}
+	Ein Szenengraph repräsentiert alle Objekte einer Szene als Graph. Dabei werden Positionen immer relativ zum Elternelement angegeben. Wird eine globale Position relativ zum Weltkoordinatensystem benötigt, müssen alle Transformationen entlang des Graphs vom Ursprung zum Objekt angewendet werden.\\
+	\includegraphics[width=\linewidth]{figures/scene-graph.png}
+
+	\subsection{Koordinatensysteme}
+	Man unterscheidet mehrere Koordinatensysteme\\
+	\textbf{Weltkoordinatensystem $\mathbf{W}$} Globales Referenzsystem für alle Objekte\\
+	\textbf{Objektsystem $\mathbf{O}$} Relatives System für jedes Objekt. Urspung im Objektursprung. Verwendet z.B. um Punkte eines Objekts relativ zum Ursprung anzugeben.\\
+	\textbf{Kamerasystem $\mathbf{C}$} System relativ zur Kameraposition
+
+	\subsection{Rendering}
+	Zum Rendern des Scene-Graphs wird das Visitor-Pattern verwendet.\\
+	\includegraphics[width=\linewidth]{figures/visitor-pattern.png}
+
+	\section{Rasterisierung}
+
+	% TODO weiter mit 09-rasterization-pipeline
 
 	% \section{Grundlagen}
 	% Neuronales Netzwerk ist Funktion, die auf Eingabedaten angewendet wird.\\

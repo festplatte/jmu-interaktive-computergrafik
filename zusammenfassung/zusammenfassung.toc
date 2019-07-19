@@ -3,6 +3,16 @@
 \contentsline {subsection}{\numberline {1.1}Menschliche Wahrnehmung von Licht}{3}% 
 \contentsline {subsection}{\numberline {1.2}Rasterisierung von Vektorgrafiken}{4}% 
 \contentsline {subsection}{\numberline {1.3}Vektoren}{5}% 
-\contentsline {section}{\numberline {2}Raytracing}{5}% 
-\contentsline {subsection}{\numberline {2.1}Shading}{7}% 
-\contentsline {subsection}{\numberline {2.2}Phong Relektionsmodell}{7}% 
+\contentsline {subsection}{\numberline {1.4}Homogene Koordinaten}{5}% 
+\contentsline {paragraph}{Fundamental rotation matrices}{6}% 
+\contentsline {paragraph}{Homogenous transformation}{6}% 
+\contentsline {paragraph}{Reflection}{7}% 
+\contentsline {paragraph}{Transformation for abitraty points}{7}% 
+\contentsline {paragraph}{Inverse homogenous transformation}{7}% 
+\contentsline {section}{\numberline {2}Raytracing}{7}% 
+\contentsline {subsection}{\numberline {2.1}Shading}{8}% 
+\contentsline {subsection}{\numberline {2.2}Phong Relektionsmodell}{9}% 
+\contentsline {section}{\numberline {3}Scene Graph}{11}% 
+\contentsline {subsection}{\numberline {3.1}Koordinatensysteme}{11}% 
+\contentsline {subsection}{\numberline {3.2}Rendering}{12}% 
+\contentsline {section}{\numberline {4}Rasterisierung}{12}% 
