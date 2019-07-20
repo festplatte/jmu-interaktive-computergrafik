@@ -253,8 +253,32 @@
 	\includegraphics[width=\linewidth]{figures/visitor-pattern.png}
 
 	\section{Rasterisierung}
+	Abbildung von 3D-Objekten auf 2D-Projektionsfläche $\rightarrow$ Forward Rendering\\
+	\textbf{Unterschied zu Raytracing} Szene wird auf Betrachter projektiert. Bei Raytracing wird vom Betrachter aus die Szene mit Rays abgetastet, dadurch flexibler. Rasterisierung ist an geometische Formen und deren 2D-Abbildung gebunden, dadurch aber schneller.
+	
+	\subsection{Pipeline}
+	Ablauf der Rasterisierung lässt sich gut durch Pipeline darstellen, deren Schritte durchlaufen werden:\\
+	\includegraphics[width=\linewidth]{figures/rasterization-pipeline.png}\\
+	\includegraphics[width=\linewidth]{figures/rasterization-pipeline2.png}\\
+	\textbf{Model-View Transformation} Transformiert die 3D-Objekte von den Objektsystemen in das Kamerasystem (analog Scene Graph)\\
+	\textbf{Lightning} Bestimmt die Farben der 3D-Objekte (z.B. mit Phong)\\
+	\textbf{Projection} Bestimmt den Bereich, der durch die Projektionsfläche abgebildet werden kann. Dabei wird die Projektionsmatrix auf die Geometriedaten angewendet.\\
+	\includegraphics[width=0.5\linewidth]{figures/rasterization-projection1.png}
+	\includegraphics[width=0.5\linewidth]{figures/rasterization-projection2.png}\\
+	\textbf{Primitive Assembly} Gruppiert Vertices zu Primitives wie Punkt, Linie oder Dreieck. Benötigt dafür die Information, welche Vertices zusammen gehören.\\
+	\textbf{Clipping} Schneidet vorhandene Primitives zu anhand des vorher bestimmten sichtbaren Projektionsbereichs. Dabei können Primitives komplett verschwinden oder verändert werden, wenn Teile davon außerhalb der Projektionsfläche liegen.\\
+	\textbf{Rasterization \& Interpolation} Generiere Attribute (wie Farbe) für Werte (Pixel), die innerhalb von Primitives liegen (z.B. das Innere vom Dreieck). Dies geschieht durch Interpolation der Eckpunkte der Primitives. Dabei entsteht für jedes Primitive ein Stream an Fragments (Position und Farbe), der diese Informationen speichert.\\
+	\textit{Fragmente} gehören immer zu einem Pixel. Es kann allerdings mehrere Fragmente pro Pixel geben, wenn z.B. Multisampling durchgeführt wird. Allerdings gibt es mindestens ein Fragment pro Pixel.\\
+	\textbf{Shading} Mappt die einzelnen Fragments auf die Farben der Pixel. Es entsteht ein Stream mit $0..n$ Farbwerten.\\
+	\textbf{Visibility Resolution} Prüft die Tiefenwerte der Fragmente und füllt den z-Buffer. Dieser gibt an, wie weit ein Pixel/Fragment von der Projektionsfläche nach hinten entfernt liegt.
 
-	% TODO weiter mit 09-rasterization-pipeline
+	\subsection{Zusammenfassung}
+	Da die einzelnen Schritte der Pipeline klare Schnittstellen haben, können diese als Black-Boxes angesehen werden und individuell implementiert werden.\\
+	\textbf{Vertex Shader} Die Verarbeitung von Vertices wird Vertex Shader genannt.\\
+	\textbf{Fragment Shader} Die Verarbeitung von Framgents wird Fragment Shader genannt.
+
+
+	% TODO weiter mit 10-lecture-deck
 
 	% \section{Grundlagen}
 	% Neuronales Netzwerk ist Funktion, die auf Eingabedaten angewendet wird.\\

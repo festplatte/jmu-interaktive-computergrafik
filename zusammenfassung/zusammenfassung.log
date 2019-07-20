@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.10)  19 JUL 2019 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.10)  20 JUL 2019 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,20 +430,45 @@ File: figures/visitor-pattern.png Graphic file (type png)
 <use figures/visitor-pattern.png>
 Package pdftex.def Info: figures/visitor-pattern.png  used on input line 253.
 (pdftex.def)             Requested size: 469.75502pt x 223.67253pt.
- [12 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png>] (/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux) ) 
+<figures/rasterization-pipeline.png, id=76, 1362.08875pt x 761.84625pt>
+File: figures/rasterization-pipeline.png Graphic file (type png)
+<use figures/rasterization-pipeline.png>
+Package pdftex.def Info: figures/rasterization-pipeline.png  used on input line 261.
+(pdftex.def)             Requested size: 469.75502pt x 262.74423pt.
+<figures/rasterization-pipeline2.png, id=77, 1521.685pt x 772.8875pt>
+File: figures/rasterization-pipeline2.png Graphic file (type png)
+<use figures/rasterization-pipeline2.png>
+Package pdftex.def Info: figures/rasterization-pipeline2.png  used on input line 262.
+(pdftex.def)             Requested size: 469.75502pt x 238.59021pt.
+<figures/rasterization-projection1.png, id=78, 736.7525pt x 663.47874pt>
+File: figures/rasterization-projection1.png Graphic file (type png)
+<use figures/rasterization-projection1.png>
+Package pdftex.def Info: figures/rasterization-projection1.png  used on input line 266.
+(pdftex.def)             Requested size: 234.8775pt x 211.51775pt.
+<figures/rasterization-projection2.png, id=79, 636.3775pt x 642.4pt>
+File: figures/rasterization-projection2.png Graphic file (type png)
+<use figures/rasterization-projection2.png>
+Package pdftex.def Info: figures/rasterization-projection2.png  used on input line 267.
+(pdftex.def)             Requested size: 234.8775pt x 237.09615pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--274
+[] [] 
+ []
+
+[12 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png>] [13 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png>] [14 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png>] (/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux) ) 
 Here is how much of TeX's memory you used:
- 4171 strings out of 494508
- 59410 string characters out of 6175045
+ 4193 strings out of 494508
+ 60190 string characters out of 6175045
  141459 words of memory out of 5000000
- 7737 multiletter control sequences out of 15000+600000
- 14183 words of font info for 57 fonts, out of 8000000 for 9000
+ 7754 multiletter control sequences out of 15000+600000
+ 14530 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,8n,32p,410b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf (12 pages, 1428062 bytes).
+ 41i,8n,32p,453b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf (14 pages, 1906535 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
