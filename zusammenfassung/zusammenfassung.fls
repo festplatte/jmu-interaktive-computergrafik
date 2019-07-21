@@ -201,6 +201,12 @@ INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/fi
 INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
 INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
 INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

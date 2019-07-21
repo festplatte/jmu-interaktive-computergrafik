@@ -5,12 +5,13 @@
 \contentsline {subsection}{\numberline {1.3}Vektoren}{5}% 
 \contentsline {subsection}{\numberline {1.4}Homogene Koordinaten}{5}% 
 \contentsline {paragraph}{Fundamental rotation matrices}{6}% 
+\contentsline {paragraph}{Euler Angles transformation}{6}% 
 \contentsline {paragraph}{Homogenous transformation}{6}% 
 \contentsline {paragraph}{Reflection}{7}% 
 \contentsline {paragraph}{Transformation for abitraty points}{7}% 
 \contentsline {paragraph}{Inverse homogenous transformation}{7}% 
 \contentsline {section}{\numberline {2}Raytracing}{7}% 
-\contentsline {subsection}{\numberline {2.1}Shading}{8}% 
+\contentsline {subsection}{\numberline {2.1}Shading}{9}% 
 \contentsline {subsection}{\numberline {2.2}Phong Relektionsmodell}{9}% 
 \contentsline {section}{\numberline {3}Scene Graph}{11}% 
 \contentsline {subsection}{\numberline {3.1}Koordinatensysteme}{11}% 
@@ -18,3 +19,7 @@
 \contentsline {section}{\numberline {4}Rasterisierung}{12}% 
 \contentsline {subsection}{\numberline {4.1}Pipeline}{12}% 
 \contentsline {subsection}{\numberline {4.2}Zusammenfassung}{14}% 
+\contentsline {section}{\numberline {5}Viewing and Projection}{14}% 
+\contentsline {subsection}{\numberline {5.1}Lochkamera/Pinhole Camera}{15}% 
+\contentsline {subsection}{\numberline {5.2}Orthogonale Projektion}{15}% 
+\contentsline {section}{\numberline {6}Animation}{16}% 
