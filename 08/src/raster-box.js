@@ -54,6 +54,9 @@ export default class RasterBox {
         this.indexBuffer = indexBuffer;
         this.elements = indices.length;
 
+        const colorBuffer = gl.createBuffer();
+        gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
+        gl.bufferData()
         // TODO [exercise 8] create and fill a buffer for colours
     }
 
@@ -68,7 +71,7 @@ export default class RasterBox {
         this.gl.vertexAttribPointer(positionLocation,
             3, this.gl.FLOAT, false, 0, 0);
 
-        // TODO  [exercise 8] bind colour buffer
+        // TODO [exercise 8] bind colour buffer
 
         this.gl.bindBuffer(this.gl.ELEMENT_ARRAY_BUFFER, this.indexBuffer);
         this.gl.drawElements(this.gl.TRIANGLES, this.elements, this.gl.UNSIGNED_SHORT, 0);
