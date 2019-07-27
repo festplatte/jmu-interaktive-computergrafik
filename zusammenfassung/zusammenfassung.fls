@@ -1,224 +1,284 @@
-PWD /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
-OUTPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.log
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/answers/answers.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/answers/answers.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
-OUTPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
-OUTPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
-INPUT /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+PWD /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
+OUTPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.log
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/answers/answers.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/answers/answers.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/mathrsfs.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/mathrsfs.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry-de/geometry.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry-de/geometry.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifvtex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifvtex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/switch.def
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-german/ngerman.ldf
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-german/ngerman.ldf
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-german/ngermanb.ldf
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.def
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
+OUTPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/supp-pdf.mkii
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/supp-pdf.mkii
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/grfext.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/grfext.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/ursfs.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/ursfs.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr6.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmex10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/public/rsfs/rsfs5.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+OUTPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc
+OUTPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omscmr.fd
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omscmr.fd
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmti12.tfm
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png
+INPUT /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb

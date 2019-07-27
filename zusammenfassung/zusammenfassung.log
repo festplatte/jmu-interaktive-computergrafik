@@ -1,14 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.10)  21 JUL 2019 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.1.10)  27 JUL 2019 12:04
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
-(/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
+**/Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
+(/Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.tex
 LaTeX2e <2018-12-01>
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo"
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,51 +19,50 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/answers/answers.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/answers/answers.sty"
 Package: answers 2014/08/24 v2.16 Production of solution sheets in LaTeX2e
- (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks14
 \verbatim@line=\toks15
 \verbatim@in@stream=\read1
-)) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+)) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/02/04 v3.8 Customized lists
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty"
+Package: enumitem 2018/11/30 v3.6 Customized lists
 \labelindent=\skip43
 \enit@outerparindent=\dimen105
 \enit@toks=\toks17
 \enit@inbox=\box27
-\enit@count@id=\count88
-\enitdp@description=\count89
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+\enitdp@description=\count88
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/multicol.sty"
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count90
+\c@tracingmulticols=\count89
 \mult@box=\box28
 \multicol@leftmargin=\dimen106
-\c@unbalance=\count91
-\c@collectmore=\count92
-\doublecol@number=\count93
-\multicoltolerance=\count94
-\multicolpretolerance=\count95
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
 \full@width=\dimen107
 \page@free=\dimen108
 \premulticols=\dimen109
@@ -97,30 +93,30 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
-\c@columnbadness=\count96
-\c@finalcolumnbadness=\count97
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
 \last@try=\dimen112
 \multicolovershoot=\dimen113
 \multicolundershoot=\dimen114
 \mult@nat@firstbox=\box52
 \colbreak@box=\box53
-\mc@col@check@num=\count98
-) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+\mc@col@check@num=\count97
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
-) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry-de/geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count99
-\Gm@cntv=\count100
-\c@Gm@tempcnt=\count101
+\Gm@cnth=\count98
+\Gm@cntv=\count99
+\c@Gm@tempcnt=\count100
 \Gm@bindingoffset=\dimen115
 \Gm@wd@mp=\dimen116
 \Gm@odd@mp=\dimen117
@@ -130,30 +126,30 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
 \Gm@dimlist=\toks18
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg")) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen123
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen124
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count102
+\inf@bad=\count101
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count103
-\leftroot@=\count104
+\uproot@=\count102
+\leftroot@=\count103
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count105
-\DOTSCASE@=\count106
+\classnum@=\count104
+\DOTSCASE@=\count105
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -162,15 +158,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen125
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count107
-\c@MaxMatrixCols=\count108
+\macc@depth=\count106
+\c@MaxMatrixCols=\count107
 \dotsspace@=\muskip10
-\c@parentequation=\count109
-\dspbrk@lvl=\count110
+\c@parentequation=\count108
+\dspbrk@lvl=\count109
 \tag@help=\toks20
-\row@=\count111
-\column@=\count112
-\maxfields@=\count113
+\row@=\count110
+\column@=\count111
+\maxfields@=\count112
 \andhelp@=\toks21
 \eqnshift@=\dimen126
 \alignsep@=\dimen127
@@ -184,7 +180,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscls/amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -195,31 +191,45 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip50
 \thm@headsep=\skip51
 \dth@everypar=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+)) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty"
 Package: babel 2018/11/13 3.27 The Babel package
- (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/switch.def"
 File: switch.def 2018/11/13 3.27 Babel switching mechanism
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthography)
- (/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthography)
- (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count114
-\U@D=\dimen132
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count115
 )
+*************************************
+* Local config file bblopts.cfg used
+*
+("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-german/ngerman.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthography)
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-german/ngermanb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthography)
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count113
+\U@D=\dimen132
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def")
+\bbl@dirlevel=\count114
+)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `German (new orthography)' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 47.
+
+\l@ngerman = a dialect from \language0
 Package babel Info: Making " an active character on input line 121.
-))) (/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux)
+))) (/Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux)
 \openout1 = `zusammenfassung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -234,39 +244,39 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
+\scratchcounter=\count115
 \scratchdimen=\dimen133
 \scratchbox=\box56
-\nofMPsegments=\count117
-\nofMParguments=\count118
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count119
+\MPscratchCnt=\count118
 \MPscratchDim=\dimen134
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks31
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberdiek/kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)))) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+)))) ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -277,9 +287,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -315,37 +323,52 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 43.
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 43.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 43.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc)
+) (/Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.toc)
 \tf@toc=\write3
 \openout3 = `zusammenfassung.toc'.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ ("/Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
-<figures/digitalisierung.png, id=9, 1595.9625pt x 780.9175pt>
+
+Overfull \hbox (12.6052pt too wide) in paragraph at lines 59--60
+[]\OT1/cmr/m/n/12 Oberfl[]ache ann[]ahernd beschrieben durch Dreiecke oder Polygone (manuell, Laser Scanner,
+ []
+
+<figures/digitalisierung.png, id=8, 1595.9625pt x 780.9175pt>
 File: figures/digitalisierung.png Graphic file (type png)
 <use figures/digitalisierung.png>
 Package pdftex.def Info: figures/digitalisierung.png  used on input line 67.
 (pdftex.def)             Requested size: 469.75502pt x 229.85628pt.
 
+Overfull \hbox (8.4795pt too wide) in paragraph at lines 62--70
+\OT1/cmr/bx/n/12 Immersion \OT1/cmr/m/n/12 Ma in wie weit eine virtuelle Darbietung []auere, reale Wahrnehmungen ausgrenzt
+ []
+
+
 Overfull \hbox (37.15611pt too wide) in paragraph at lines 62--70
-\OT1/cmr/bx/n/12 Pr[]asenz/Presence \OT1/cmr/m/n/12 In wie weit f[]uhlt sich ein Sub-jekt in ei-ner Um-ge-bung an-ge-kom-men/eingebungen
+\OT1/cmr/bx/n/12 Pr[]asenz/Presence \OT1/cmr/m/n/12 In wie weit f[]uhlt sich ein Subjekt in einer Umgebung angekommen/eingebungen
+ []
+
+
+Overfull \hbox (1.86534pt too wide) in paragraph at lines 62--70
+\OT1/cmr/bx/n/12 Vektorgrafik \OT1/cmr/m/n/12 Inhalt der Grafik wird durch geometrische Formen beschrieben. Kann gerastert
  []
 
 
@@ -353,100 +376,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--70
 
  []
 
-[2 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png>]
-<figures/stevens-law.png, id=16, 1593.955pt x 759.83875pt>
+[2 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/digitalisierung.png>]
+<figures/stevens-law.png, id=15, 1593.955pt x 759.83875pt>
 File: figures/stevens-law.png Graphic file (type png)
 <use figures/stevens-law.png>
 Package pdftex.def Info: figures/stevens-law.png  used on input line 83.
 (pdftex.def)             Requested size: 469.75502pt x 223.93019pt.
-<figures/gamma-correction.png, id=17, 1626.075pt x 756.8275pt>
+<figures/gamma-correction.png, id=16, 1626.075pt x 756.8275pt>
 File: figures/gamma-correction.png Graphic file (type png)
 <use figures/gamma-correction.png>
 Package pdftex.def Info: figures/gamma-correction.png  used on input line 85.
 (pdftex.def)             Requested size: 469.75502pt x 218.63133pt.
- [3 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png>]
-<figures/dda.png, id=22, 1579.9025pt x 740.7675pt>
+
+Overfull \hbox (39.02007pt too wide) in paragraph at lines 82--86
+\OT1/cmr/bx/n/12 Steven's Power Law \OT1/cmr/m/n/12 physikalische Intensit[]at (Helligkeit) ist nicht proportional zur wahrnehmbaren
+ []
+
+
+Overfull \hbox (0.87866pt too wide) in paragraph at lines 82--86
+\OT1/cmr/bx/n/12 Gamma Korrektur \OT1/cmr/m/n/12 korrigiert physikalische Intensit[]at, um kontinuierlichen wahrnehmbaren
+ []
+
+[3 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/stevens-law.png>]
+Overfull \hbox (10.68092pt too wide) in paragraph at lines 86--88
+\OT1/cmr/m/n/12 mit $\OML/cmm/m/it/12 I \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 [0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1]$, $\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n/12 [0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2[]]$: Abbildung der physikalischen Intensit[]at auf wahrnehmungskorrigierte
+ []
+
+<figures/dda.png, id=21, 1579.9025pt x 740.7675pt>
 File: figures/dda.png Graphic file (type png)
 <use figures/dda.png>
 Package pdftex.def Info: figures/dda.png  used on input line 91.
 (pdftex.def)             Requested size: 469.75502pt x 220.2539pt.
-<figures/bresenham.png, id=23, 1600.98125pt x 636.3775pt>
+<figures/bresenham.png, id=22, 1600.98125pt x 636.3775pt>
 File: figures/bresenham.png Graphic file (type png)
 <use figures/bresenham.png>
 Package pdftex.def Info: figures/bresenham.png  used on input line 93.
 (pdftex.def)             Requested size: 469.75502pt x 186.71986pt.
- [4 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png>]
-<figures/homogene-koordinaten.png, id=34, 1432.35126pt x 659.46375pt>
+
+Overfull \hbox (9.67426pt too wide) in paragraph at lines 90--98
+\OT1/cmr/bx/n/12 Digital Differential Analyzer (DDA) \OT1/cmr/m/n/12 Rastern von Linien zwischen zwei beliebigen Punkten
+ []
+
+
+Overfull \hbox (1.43973pt too wide) in paragraph at lines 90--98
+\OMS/cmsy/m/n/12 !$ \OT1/cmr/bx/n/12 Nyquist-Shannon Sampling Theorem \OT1/cmr/m/n/12 Sample Frequenz $\OML/cmm/m/it/12 >\OT1/cmr/m/n/12 =$ Doppelte Signal Frequenz 
+ []
+
+
+Overfull \hbox (26.22548pt too wide) in paragraph at lines 90--98
+\OT1/cmr/bx/n/12 Supersampling \OT1/cmr/m/n/12 feinere Aufl[]osung als Zielbild w[]ahlen und regelm[]aig samplen (beste Ergebnisse),
+ []
+
+[4 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/gamma-correction.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/dda.png>]
+<figures/homogene-koordinaten.png, id=33, 1432.35126pt x 659.46375pt>
 File: figures/homogene-koordinaten.png Graphic file (type png)
 <use figures/homogene-koordinaten.png>
 Package pdftex.def Info: figures/homogene-koordinaten.png  used on input line 112.
 (pdftex.def)             Requested size: 469.75502pt x 216.27531pt.
- [5 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png>]
+ [5 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/bresenham.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[6 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png>]
+
+Overfull \hbox (9.69456pt too wide) in paragraph at lines 144--147
+ \OT1/cmr/bx/n/12 Homogenous transformation[] \OT1/cmr/m/n/12 Describe coordinates as homogenous coordinates to describe
+ []
+
+[6 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/homogene-koordinaten.png>]
+Overfull \hbox (12.02054pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/12 Represent rotations and translations as separate fundamental homogenous transformation
+ []
+
+
+Overfull \hbox (1.99368pt too wide) in paragraph at lines 179--180
+[]\OT1/cmr/m/n/12 If $\OML/cmm/m/it/12 M$ \OT1/cmr/m/n/12 is rotated about or translated along a unit vector of $\OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 , \OT1/cmr/bx/n/12 postmultiply \OT1/cmr/m/n/12 homogenous
+ []
+
+
+Overfull \hbox (16.78658pt too wide) in paragraph at lines 199--200
+\OT1/cmr/m/n/12 Rendern von 3D-Objekten als 2D-Repr[]asentation. Orientiert an Physik, dadurch sehr realistische
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 [7]
-<figures/raytracing.png, id=50, 1153.30875pt x 652.4375pt>
+<figures/raytracing.png, id=49, 1153.30875pt x 652.4375pt>
 File: figures/raytracing.png Graphic file (type png)
 <use figures/raytracing.png>
 Package pdftex.def Info: figures/raytracing.png  used on input line 213.
 (pdftex.def)             Requested size: 469.75502pt x 265.74895pt.
- [8 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png>]
-<figures/phong-ambient.png, id=56, 1596.96625pt x 783.92876pt>
+ [8 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/raytracing.png>]
+Overfull \hbox (2.83955pt too wide) in paragraph at lines 231--232
+\OT1/cmr/m/n/12 Reflektion oder Schatten und Objektstruktur ignoriert werden. Gleichm[]aig gef[]arbte Objekte. 
+ []
+
+
+Overfull \hbox (5.09285pt too wide) in paragraph at lines 234--236
+\OT1/cmr/m/n/12 Farbe (Ambient) + Oberfl[]achenbeschaffenheit und Schatten (Diffuse) + Reflektion (Specular).
+ []
+
+<figures/phong-ambient.png, id=55, 1596.96625pt x 783.92876pt>
 File: figures/phong-ambient.png Graphic file (type png)
 <use figures/phong-ambient.png>
 Package pdftex.def Info: figures/phong-ambient.png  used on input line 241.
 (pdftex.def)             Requested size: 469.75502pt x 230.59908pt.
-<figures/phong-diffuse.png, id=57, 1574.88374pt x 810.02625pt>
+<figures/phong-diffuse.png, id=56, 1574.88374pt x 810.02625pt>
 File: figures/phong-diffuse.png Graphic file (type png)
 <use figures/phong-diffuse.png>
 Package pdftex.def Info: figures/phong-diffuse.png  used on input line 243.
 (pdftex.def)             Requested size: 469.75502pt x 241.61307pt.
- [9 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png>]
-<figures/phong-specular.png, id=62, 1595.9625pt x 827.09pt>
+[9 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-ambient.png>]
+<figures/phong-specular.png, id=61, 1595.9625pt x 827.09pt>
 File: figures/phong-specular.png Graphic file (type png)
 <use figures/phong-specular.png>
 Package pdftex.def Info: figures/phong-specular.png  used on input line 251.
 (pdftex.def)             Requested size: 469.75502pt x 243.44675pt.
-<figures/reflektionsvektor.png, id=63, 1612.0225pt x 807.015pt>
+<figures/reflektionsvektor.png, id=62, 1612.0225pt x 807.015pt>
 File: figures/reflektionsvektor.png Graphic file (type png)
 <use figures/reflektionsvektor.png>
 Package pdftex.def Info: figures/reflektionsvektor.png  used on input line 253.
 (pdftex.def)             Requested size: 469.75502pt x 235.16124pt.
- [10 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png>]
-<figures/scene-graph.png, id=69, 1494.58376pt x 710.655pt>
+ [10 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-diffuse.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/phong-specular.png>]
+<figures/scene-graph.png, id=68, 1494.58376pt x 710.655pt>
 File: figures/scene-graph.png Graphic file (type png)
 <use figures/scene-graph.png>
 Package pdftex.def Info: figures/scene-graph.png  used on input line 257.
 (pdftex.def)             Requested size: 469.75502pt x 223.35869pt.
- [11 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png>]
-<figures/visitor-pattern.png, id=75, 1178.4025pt x 561.09625pt>
+
+Overfull \hbox (73.21521pt too wide) in paragraph at lines 256--258
+\OT1/cmr/m/n/12 immer relativ zum Elternelement angegeben. Wird eine globale Position relativ zum Weltkoordinatensystem
+ []
+
+
+Overfull \hbox (6.25381pt too wide) in paragraph at lines 260--264
+\OT1/cmr/bx/n/12 Objektsystem $O$ \OT1/cmr/m/n/12 Relatives System f[]ur jedes Objekt. Urspung im Objektursprung. Verwendet
+ []
+
+[11 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/reflektionsvektor.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/scene-graph.png>]
+<figures/visitor-pattern.png, id=74, 1178.4025pt x 561.09625pt>
 File: figures/visitor-pattern.png Graphic file (type png)
 <use figures/visitor-pattern.png>
 Package pdftex.def Info: figures/visitor-pattern.png  used on input line 267.
 (pdftex.def)             Requested size: 469.75502pt x 223.67253pt.
-<figures/rasterization-pipeline.png, id=76, 1362.08875pt x 761.84625pt>
+<figures/rasterization-pipeline.png, id=75, 1362.08875pt x 761.84625pt>
 File: figures/rasterization-pipeline.png Graphic file (type png)
 <use figures/rasterization-pipeline.png>
 Package pdftex.def Info: figures/rasterization-pipeline.png  used on input line 275.
 (pdftex.def)             Requested size: 469.75502pt x 262.74423pt.
-<figures/rasterization-pipeline2.png, id=77, 1521.685pt x 772.8875pt>
+<figures/rasterization-pipeline2.png, id=76, 1521.685pt x 772.8875pt>
 File: figures/rasterization-pipeline2.png Graphic file (type png)
 <use figures/rasterization-pipeline2.png>
 Package pdftex.def Info: figures/rasterization-pipeline2.png  used on input line 276.
 (pdftex.def)             Requested size: 469.75502pt x 238.59021pt.
-<figures/rasterization-projection1.png, id=78, 736.7525pt x 663.47874pt>
+<figures/rasterization-projection1.png, id=77, 736.7525pt x 663.47874pt>
 File: figures/rasterization-projection1.png Graphic file (type png)
 <use figures/rasterization-projection1.png>
 Package pdftex.def Info: figures/rasterization-projection1.png  used on input line 280.
 (pdftex.def)             Requested size: 234.8775pt x 211.51775pt.
-<figures/rasterization-projection2.png, id=79, 636.3775pt x 642.4pt>
+<figures/rasterization-projection2.png, id=78, 636.3775pt x 642.4pt>
 File: figures/rasterization-projection2.png Graphic file (type png)
 <use figures/rasterization-projection2.png>
 Package pdftex.def Info: figures/rasterization-projection2.png  used on input line 281.
@@ -456,13 +547,38 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 274--288
 [] [] 
  []
 
-[12 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png>] [13 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png>] [14 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png>]
-<figures/pinhole-camera1.png, id=96, 582.175pt x 257.96375pt>
+
+Overfull \hbox (16.15887pt too wide) in paragraph at lines 274--288
+\OT1/cmr/m/n/12 innerhalb von Primitives liegen (z.B. das Innere vom Dreieck). Dies geschieht durch Interpolation
+ []
+
+
+Overfull \hbox (7.4172pt too wide) in paragraph at lines 274--288
+\OT1/cmr/m/n/12 geben, wenn z.B. Multisampling durchgef[]uhrt wird. Allerdings gibt es mindestens ein Fragment
+ []
+
+[12 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/visitor-pattern.png>] [13 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-pipeline2.png>]
+Overfull \hbox (17.92189pt too wide) in paragraph at lines 295--301
+\OT1/cmr/m/n/12 Position der sichtbaren Objekte eine Rolle wie auch die Position des Betrachters (unterschiedliche
+ []
+
+
+Overfull \hbox (5.00044pt too wide) in paragraph at lines 295--301
+\OT1/cmr/bx/n/12 Projektion \OT1/cmr/m/n/12 Mapping von einem h[]oherdimensionalen Raum in einen niedriger dimensionierten
+ []
+
+
+Overfull \hbox (16.19466pt too wide) in paragraph at lines 295--301
+\OT1/cmr/bx/n/12 Projektionsfl[]ache/Projection (View) Plane (PP/VP) \OT1/cmr/m/n/12 Fl[]ache auf der die finale Projektion
+ []
+
+[14 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection1.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/rasterization-projection2.png>]
+<figures/pinhole-camera1.png, id=95, 582.175pt x 257.96375pt>
 File: figures/pinhole-camera1.png Graphic file (type png)
 <use figures/pinhole-camera1.png>
 Package pdftex.def Info: figures/pinhole-camera1.png  used on input line 304.
 (pdftex.def)             Requested size: 234.8775pt x 104.07324pt.
-<figures/pinhole-camera2.png, id=97, 587.19376pt x 289.08pt>
+<figures/pinhole-camera2.png, id=96, 587.19376pt x 289.08pt>
 File: figures/pinhole-camera2.png Graphic file (type png)
 <use figures/pinhole-camera2.png>
 Package pdftex.def Info: figures/pinhole-camera2.png  used on input line 305.
@@ -474,23 +590,38 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 303--306
 
 
 Overfull \hbox (11.41368pt too wide) in paragraph at lines 342--345
-\OT1/cmr/bx/n/12 Einf[]ugen in Sce-ne Graph \OT1/cmr/m/n/12 Ani-ma-ti-ons-funk-ti-on ver[]andert Po-si-ti-on ein-zel-ner Kno-ten abh[]angig
+\OT1/cmr/bx/n/12 Einf[]ugen in Scene Graph \OT1/cmr/m/n/12 Animationsfunktion ver[]andert Position einzelner Knoten abh[]angig
  []
 
-[15 </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png> </mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png>] [16] (/mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux) ) 
+
+Overfull \hbox (48.56174pt too wide) in paragraph at lines 342--345
+\OT1/cmr/bx/n/12 Lineare Interpolation \OT1/cmr/m/n/12 Berechnung von Zwischenschritten ohne Anwendung der Animationsfunktion.
+ []
+
+[15 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera1.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/pinhole-camera2.png>]
+<figures/2d-complex-coordinates.png, id=102, 1088.065pt x 322.20375pt>
+File: figures/2d-complex-coordinates.png Graphic file (type png)
+<use figures/2d-complex-coordinates.png>
+Package pdftex.def Info: figures/2d-complex-coordinates.png  used on input line 348.
+(pdftex.def)             Requested size: 469.75502pt x 139.11029pt.
+<figures/quaternions.png, id=103, 1166.3575pt x 183.68625pt>
+File: figures/quaternions.png Graphic file (type png)
+<use figures/quaternions.png>
+Package pdftex.def Info: figures/quaternions.png  used on input line 349.
+(pdftex.def)             Requested size: 469.75502pt x 73.9805pt.
+ [16 </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/2d-complex-coordinates.png> </Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/figures/quaternions.png>] (/Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.aux) ) 
 Here is how much of TeX's memory you used:
- 4205 strings out of 494508
- 60528 string characters out of 6175045
- 143459 words of memory out of 5000000
- 7764 multiletter control sequences out of 15000+600000
- 14530 words of font info for 58 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 41i,8n,32p,453b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /mnt/medien/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf (16 pages, 1941553 bytes).
+ 4210 strings out of 494865
+ 65759 string characters out of 3176149
+ 141214 words of memory out of 3000000
+ 7737 multiletter control sequences out of 15000+200000
+ 14530 words of font info for 58 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 41i,8n,32p,462b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb></Users/michaelgabler/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/michaelgabler/Repositories/jmu-interaktive-computergrafik/zusammenfassung/zusammenfassung.pdf (16 pages, 2161827 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
